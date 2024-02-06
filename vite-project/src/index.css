@@ -9,3 +9,15 @@
     @apply cursor-pointer;
   }
 }
+
+.Navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+.Resume {
+  position: relative;
+  z-index: 1;
+}
