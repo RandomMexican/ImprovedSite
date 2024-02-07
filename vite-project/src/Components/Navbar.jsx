@@ -34,6 +34,9 @@ function Navbar() {
                 <Link to='Portfolio'>Portfolio</Link>
 
             </li>
+            <li>
+                Contact
+            </li>
 
         </ul>
         {/* button for mobile menu*/}
