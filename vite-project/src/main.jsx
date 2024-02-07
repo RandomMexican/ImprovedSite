@@ -1,14 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-// import { UserProvider } from "./"
 import "./index.css"
 
 import Root from './Components/Root.jsx'
 import Home from './Components/Home.jsx'
 import Resume from './Components/Resume.jsx'
 import Projects from './Components/Projects.jsx'
+import Contact from './Components/Contact.jsx'
 import NotFound from './Components/NotFound.jsx'
+
 
 const router = createBrowserRouter([
   {
@@ -24,8 +25,12 @@ const router = createBrowserRouter([
         element: <Resume/>,
       },
       {
-        path:"/Projects",
+        path:"/Portfolio",
         element: <Projects/>,
+      },
+      {
+        path:"/Contact",
+        element: <Contact/>,
       },
       {
         path:"*",

@@ -1,10 +1,7 @@
 import React, {useState} from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import { NavLink } from 'react-router-dom';
-
 
 import { Link } from 'react-router-dom';
-import { useNavigate } from 'react-router-dom';
 
 function Navbar() {
     
@@ -20,7 +17,7 @@ function Navbar() {
             {/* Button to return Home */}
             <li>
                 <Link to="/">Home</Link>
-
+                
             </li>
             
             {/* Button to go to Resume */}
@@ -35,7 +32,7 @@ function Navbar() {
 
             </li>
             <li>
-                Contact
+                <Link to='Contact'>Contact Me</Link>
             </li>
 
         </ul>

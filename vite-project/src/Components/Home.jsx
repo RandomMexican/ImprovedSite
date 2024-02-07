@@ -1,6 +1,7 @@
 import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import PFP from '../assets/PFP.png'
+import { Link } from 'react-router-dom'
 
 function Home() {
   return (
@@ -27,8 +28,9 @@ function Home() {
 
             <div>
                 <button className=' group border-2 px-6 py-3 my-2 flex items-center hover:bg-purple-500'>
-                    More Projects 
+                <Link to="/Portfolio">More Projects</Link>
                     <span className='group-hover:rotate-180 duration-300 group-hover:ml-4'>
+                        
                         <HiArrowNarrowRight className=' group-hover:ml-0 ml-3'/>
                     </span>
                 </button>

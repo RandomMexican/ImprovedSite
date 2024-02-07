@@ -5,7 +5,7 @@ function Resume() {
     <div name='Resume' className='w-full md:h-[1500px] bg-gradient-to-l from-indigo-600 via-indigo-900 to-purple-950 text-white'>
       <div className='flex flex-col justify-center items-center w-full h-full  overflow-auto'>
         <div className='max-w-[1000px] w-full  grid sm:grid-cols-2 gap-10 px-5'>
-          <div className='sm:text-left text-2xl'>
+          <div className='sm:text-left md:text-2xl sm:text-1xl '>
           <ul>
             <li>Mario Vaquero</li>
             <li>Brooklyn, NewYork| 347-420-6588 | mvaquero143@gmail.com</li>
