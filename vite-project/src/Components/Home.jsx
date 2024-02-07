@@ -9,7 +9,7 @@ function Home() {
         {/* Container */}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
             {/* <p className='px-10 border-2 py-20 w-7'> text holder for profile pic</p> */}
-            <img src={PFP} alt='profile image' style={{width:'150px',height:'100'}}/>
+            <img className='rounded-full' src={PFP} alt='profile image' style={{width:'150px',height:'100'}}/>
             <p>Hi, my name is</p>
             <h1 className='text-4xl sm:text-7xl font-bold '>Mario Vaquero</h1>
             
