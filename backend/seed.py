@@ -14,3 +14,6 @@ def create_Images():
     image1 = (image(IMGname= "GoofyRacersIMG",link="randomwords"))
     image2 = (image(IMGname= "NeonTailsIMG",link="forNEON"))
     image3 = (image(IMGname= "SimulationsIMG",link="FORSIMS"))
+
+def createPI():
+    pass
