@@ -31,6 +31,7 @@ function Navbar() {
                 <Link to='Portfolio'>Portfolio</Link>
 
             </li>
+            {/* Button for the contact form */}
             <li>
                 <Link to='Contact'>Contact Me</Link>
             </li>
