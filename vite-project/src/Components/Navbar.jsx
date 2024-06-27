@@ -9,7 +9,7 @@ function Navbar() {
     const handleClick = () => setNav(!nav)
 
   return (
-    <nav className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-l from-indigo-600 via-indigo-900 to-purple-950 text-white    '>
+    <nav className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-black text-white    '>
         <div>
             Mario V
         </div>

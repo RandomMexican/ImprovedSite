@@ -4,12 +4,20 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import "./index.css"
 
 import Root from './Components/Root.jsx'
+
+// Main pages with some content
 import Home from './Components/Home.jsx'
 import Resume from './Components/Resume.jsx'
-import Projects from './Components/Projects.jsx'
 import Contact from './Components/Contact.jsx'
-import NotFound from './Components/NotFound.jsx'
 
+
+// in case stuff is lost or not released yet re direct here
+import NotFound from './Components/NotFound.jsx'
+import Working from './Components/Working.jsx'
+
+
+// Main project page
+import Projects from './Components/Projects.jsx'
 
 const router = createBrowserRouter([
   {
@@ -35,6 +43,10 @@ const router = createBrowserRouter([
       {
         path:"*",
         element: <NotFound/>,
+      },
+      {
+        path:"/Working",
+        element: <Working/>,
       },
     ]
   }
