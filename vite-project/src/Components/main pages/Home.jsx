@@ -1,6 +1,6 @@
 import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
-import PFP from '../assets/PFP.png'
+import PFP from '../../assets/PFP.png'
 import { Link } from 'react-router-dom'
 
 function Home() {

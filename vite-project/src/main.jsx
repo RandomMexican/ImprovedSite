@@ -6,18 +6,18 @@ import "./index.css"
 import Root from './Components/Root.jsx'
 
 // Main pages with some content
-import Home from './Components/Home.jsx'
-import Resume from './Components/Resume.jsx'
-import Contact from './Components/Contact.jsx'
+import Home from './Components/main pages/Home.jsx'
+import Resume from './Components/main pages/Resume.jsx'
+import Contact from './Components/main pages/Contact.jsx'
 
 
 // in case stuff is lost or not released yet re direct here
-import NotFound from './Components/NotFound.jsx'
+import NotFound from './Components/Navigation/NotFound.jsx'
 import Working from './Components/Working.jsx'
 
 
 // Main project page
-import Projects from './Components/Projects.jsx'
+import Projects from './Components/main pages/Projects.jsx'
 
 const router = createBrowserRouter([
   {

@@ -17,6 +17,8 @@ function Resume() {
               I am experienced in Python with Flask and JavaScript-based programming and have a background in Game Development. Possesses strong skills in communication and documentation that help SWE companies communicate and share information a lot easier.
             </p>
           </div>
+
+          
           <div className='sm:text-left text-2xl font-bold'>
           TECHNICAL SKILLS
           </div>
