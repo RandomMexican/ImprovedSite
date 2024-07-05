@@ -27,13 +27,14 @@ function Home() {
                 </p>
             </div>
             {/* Animated Scrolling images so page isnt too static */}
-            <div className='w-25'>
+            
+            {/* <div className='w-25'>
                 <marquee behavior="scroll" direction="right" scrollamount="10">
                     
                     <img src="/pix/samples/bee.gif" width="72" height="79" alt="Flying Bee"/>
                     
                 </marquee>
-            </div>
+            </div> */}
 
             {/* Button for the User to see Portfolio */}
             <div>
