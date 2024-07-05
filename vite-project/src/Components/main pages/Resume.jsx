@@ -2,168 +2,126 @@ import React from 'react'
 
 function Resume() {
   return (
-    <div name='Resume' className='w-full md:h-[1500px] bg-gradient-to-l from-indigo-600 via-indigo-900 to-purple-950 text-white' >
-      <div className='flex flex-col justify-center items-center w-full h-full overflow-auto'>
-        <div className='flex flex-col justify-center items-center h-50 overflow-auto text-center'>
-          {/* HEADER BASICALLY */}
-          <div className=' sm:text-left md:text-2xl sm:text-5xl'>
-            <h2 className='text-center md:text-5xl'>
-              Mario Vaquero
-            </h2>
-
-            {/* <ul> */}
-              {/* <li className='text-center md:text-5xl'>Mario Vaquero</li> */}
-              {/* <li>Brooklyn, New York | 347-420-6588 | mariovquero@gmail.com</li> */}
-            {/* </ul> */}
+    <div name='Resume' className='w-full md:h-[1500px] bg-gradient-to-l from-indigo-600 via-indigo-900 to-purple-950 text-white'>
+      <div className='flex flex-col justify-center items-center w-full h-full  overflow-auto'>
+        <div className='max-w-[1000px] w-full  grid sm:grid-cols-2 gap-10 px-5'>
+          <div className='sm:text-left md:text-2xl sm:text-1xl '>
+          <ul>
+            <li>Mario Vaquero</li>
+            <li>Brooklyn, NewYork| 347-420-6588 | mvaquero143@gmail.com</li>
+            <li> LinkedIn | Github | Blog |</li>
+          </ul>
           </div>
-          <div className='px-20 mt-6'>
-            <p className='font-extrabold'>
-              Software Developer | Full Stack Web Development | Game Development | Object Oriented Programming
-            </p>
-            <p className='mt-3'>
-            Experienced in Python with Flask and JavaScript-based programming, 
-            with a strong background in Game Development. 
-            Possess excellent communication and documentation skills, 
-            facilitating better information sharing within SWE companies. 
-            Seeking opportunities to leverage my technical expertise and creative problem-solving abilities in a dynamic environment.
+          <div className='px-6'>
+            <p>
+              I am experienced in Python with Flask and JavaScript-based programming and have a background in Game Development. Possesses strong skills in communication and documentation that help SWE companies communicate and share information a lot easier.
             </p>
           </div>
 
-
-          {/* SKILLS LISTED */}
-          <div className='sm:text-left text-2xl font-bold mt-3'>
-            <p>TECHNICAL SKILLS</p>
+          
+          <div className='sm:text-left text-2xl font-bold'>
+          TECHNICAL SKILLS
           </div>
-          <div className='mt-3'>
+          <div>
             <p>
-              Programming Languages: Python, JavaScript, C#, C++, SQL
+              {/* switch with Icons so it looks nicer */}
+            Python with Flask, SQL, JavaScript, React, Unity3D, and 2D, C#
             </p>
-            <p>
-              Frameworks & Libraries: Flask, React, Node.js, Express.js, Tailwind CSS, Unity3D, Ursina
-            </p>
-            <p>
-              Tools & Platforms: Vite, MongoDB Atlas, bcrypt, Git
-            </p>
-          </div>
-        </div>
-        
-        <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-10 px-5 mt-6'>
-
-          {/* SWE PROJECTS */}
-          {/* name of project */}
-          <div className='sm:text-left text-2xl font-bold inline border-b-4 border-grey mt-3'>
-            <p>
-              Portfolio Site
-            </p>
-          </div>
-          {/* description of project */}
-          <div className=''>
-            <p>
-              Portfolio showing all projects I have developed along with further information about me
-            </p>
-            <ul className='mt-3'>
-              <li>Built using React.JS, Vite, and Tailwind CSS</li>
-              <li>Showcases all projects, resume, and contact information</li>
-              <li>Currently in development, with assets and backend work nearly complete</li>
-            </ul>
           </div>
 
-
-          {/* name of project */}
-          <div className='sm:text-left text-2xl font-bold inline border-b-4 border-grey mt-3'>
-            <p>
-              Simulations GUI
-            </p>
+          <div className='sm:text-right text-2xl font-bold inline border-b-4 border-grey'>
+            SOFTWARE ENGINEERING PROJECTS
           </div>
-          {/* description of project */}
+          <div></div>
+          <p className='font-bold sm:text-left text-2xl inline border-b-4 border-grey'>
+              Game Dev Portfolio
+          </p>
+          <div className='items-center'>
+            <p>
+              Portfolio showing some games I developed early in my career 
+            </p>
+              <ul className='list-disc'>
+                <li>Made using HTML CSS and JavaScript</li>
+                <li>CSS to style</li>
+                <li>HTML makes up the basic structure</li>
+                <li>JavaScript is used to make use of the events and edit the db.json</li>
+              </ul>
+          </div>
+
+          <p className='font-bold sm:text-left text-2xl inline border-b-4 border-grey'>
+            Simulations GUI
+          </p>
           <div>
             <p>
               Program made using only Python that shows off different simulations
             </p>
-            <ul className='mt-3'>
-              <li>
-                Developed GUI in Python for various simulations (Solar System, Sand/Gravity, Conway’s Game of Life)
-              </li>
-            </ul>
+            
+              <ul className='list-disc'>
+                <li>Developed GUI to show different simulations</li>
+                <li>Current Simulations: Solar System, Sand/Gravity, and Conway's Game of Life</li>
+              </ul>
+            
           </div>
 
-          {/* name of project */}
-          <div className='sm:text-left text-2xl font-bold inline border-b-4 border-grey mt-3'>
-            <p>
-              Task Manager
-            </p>
-          </div>
-          {/* description of project */}
+          <p className='font-bold sm:text-left text-2xl inline border-b-4 border-grey'>
+            Video Game Viewer
+          </p>
           <div>
             <p>
-              Developed Task manager using Node.js, Express.js, Javascript, and MongoDB Atlas 
+              Site made with my classmate Miguel, shows a list of games and some information on them
             </p>
-            <ul className='mt-3'>
-              <li>Built using Node.js, Express.js, JavaScript, and MongoDB Atlas</li>
-              <li>Developed routes and middleware for error handling and task management</li>
-            </ul>
+              <ul className='list-disc'>
+                <li>Guided our project to list everything in out database properly</li>
+                <li>Programmed with React to show the information my team gathered</li>
+              </ul>
+            
           </div>
+
+          <p className='font-bold sm:text-left text-2xl inline border-b-4 border-grey'>
+            Neon Tails
+          </p>
           
-          {/* name of project */}
-          <div className='sm:text-left text-2xl font-bold inline border-b-4 border-grey mt-3'>
-            <p>
-              Neon Tails
-            </p>
-          </div>
-          {/* description of project */}
           <div>
             <p>
-              Online art gallery for cat, dog, and cyberpunk-related images. Focused on Backend
+              Online art gallery for cat, dog, and cyberpunk-related images.
             </p>
-            <ul className='mt-3'>
-              <li>Online art gallery for cat, dog, and cyberpunk-related images</li>
-              <li>Focused on backend development using SQL, Flask, and bcrypt</li>
+            <ul>
+              <li>Developed the backend of this site using SQL, Flask, and Bcrypt</li>
+              <li>Handled the dummy data in our database for the frontend fo access</li>
             </ul>
+            {/* <ul className='light-disc'>
+              <li>Developed the backend of this Site using SQL, Flask, and bcrypt</li>
+              <li>Handled the dummy data in our database for the frontend to access</li>
+            </ul> */}
+            
           </div>
 
-
-          {/* name of project */}
-          <div className='sm:text-left text-2xl font-bold inline border-b-4 border-grey mt-3'>
-            <p>
+            <p className='font-bold sm:text-left text-2xl inline border-b-4 border-grey'>
               Goofy Racers
             </p>
-          </div>
-          {/* description of project */}
           <div>
             <p>
-              3D game I developed almost entirely by myself using Ursina and Python alone in three weeks
+              3D multiplayer racing game made entirely in Python
             </p>
-            <ul className='mt-3'>
-              <li>3D game developed using Ursina and Python</li>
-              <li>Implemented gameplay mechanics, physics, and multiplayer networking</li>
-            </ul>
+              <ul className='light-disc'>
+                <li>Using the Ursina Game Engine for the gameplay</li>
+                <li>Using Ursina Networking to develop the multiplayer</li>                
+              </ul>
+          </div>
+          <div className='sm:text-right text-2xl font-bold inline border-b-4 border-grey'>
+            EXPERIENCE
+          </div>
+          <div>
+            <p className='font-bold sm:text-left text-2xl inline border-b-2 border-gray-50'>
+              Urban Arts Partnership Manhattan New York Assistant Teaching Artist June 2020-Present
+            </p>
+              <ul className='light-disc'>
+                <li>Help Teach Game Design and Development in Unity 2D and 3D</li>
+                <li>Led Course on 5 weeks about Game Design Fundamentals</li>
+              </ul>
           </div>
         </div>
-      <div>
-        <h2 className='text-center md:text-3xl font-bold border-b-4 border-grey mt-10'> EXPERIENCE</h2>
-        <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-5 px-5 mt-6'>
-          <p className='sm:text-left text-2xl font-semibold'>
-            Urban Arts Partnership
-          </p>
-          <p className='sm:text-right text-2xl font-semibold'>
-            Manhattan, NewYork
-          </p>
-          <p className=''>
-            Assistant Teaching Artist, School of Interactive Arts
-          </p>
-          <p className='sm:text-right'>
-            june 2020 - Present
-          </p>
-        </div>
-        <ul>
-          <li className='mt-3'>Assisted in teaching Game Design and Development in Unity 2D and 3D</li>
-          <li className='mt-2'>Improved teaching materials and provided clearer instructions for students</li>
-          <li className='mt-2'>Led two 5-week courses on Game Design fundamentals and programming</li>
-          <li className='mt-2'>Organized and assisted in events like Unreleased Games Arcade and SIA arcade</li>
-        </ul>
-      </div>
-      
-      
+
       </div>
     </div>
   )
