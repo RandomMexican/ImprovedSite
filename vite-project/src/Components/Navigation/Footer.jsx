@@ -5,8 +5,7 @@ import { Link } from 'react-router-dom'
 
 
 const Footer = () => {
-
-  const [fnav,setFNav] = useState(false)
+  // put these in their own script and import to this script later
   const sendToLinkedin = () => {
     window.location.href = 'https://www.linkedin.com/in/mario-vaquero-8a5903237/'
   };
@@ -33,7 +32,7 @@ const Footer = () => {
             Location: Brooklyn, NY
           </p>
         </div>
-        {/* right side with links */}
+        {/* right side with links to different sites*/}
         <div className='ml-20'>
           <button onClick={sendToLinkedin}>
             Linkedin

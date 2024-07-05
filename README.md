@@ -10,3 +10,5 @@ It is not fully setup yet but here are some Images of what it currently looks li
 
 <img src="./vite-project/Assets/PortfolioSiteScreenshot.png">
 
+No live demo at the moment but will record a video when footer has more styling 
+
